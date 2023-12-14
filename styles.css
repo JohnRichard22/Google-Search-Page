@@ -1,0 +1,88 @@
+p{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:xx-large;
+    padding-top: 40px;
+    margin-left: 18rem;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.grid-item{
+    display: block;
+    text-align: start;
+    line-height: 3;
+}
+
+.grid-container{
+    display: flex;
+    column-gap: 150px; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+} 
+
+.logo{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.blue{
+    color: rgb(0, 174, 255);
+}
+
+.red{
+    color:red;
+}
+
+.yellow{
+    color: gold;
+}
+
+.green{
+    color: green;
+}
+
+.number {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.number li {
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
+   margin-right: 1.40rem;
+}
+
+ul li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 174, 255);
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: black;
+    transition: 0.3em; 
+    scale: 1.1; 
+} 
+
+#logo:hover{
+    text-decoration: none;
+    transition: 0.3em; 
+    scale: 1.2;
+}
